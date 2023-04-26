@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naminfratech</title>
+    <link rel="icon" type="image/x-icon" href="./icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        font-size: 16px;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        background-color: #ffffff;
+      }
+      header {
+        width: 60vw;
+        height: 68px;
+        background-color: transparent;
+        text-align: center;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        z-index: 3;
+      }
+      header:hover {
+        background-color: #ffffff;
+        border-radius: 0px 20px 20px 0px;
+      }
+      .logo {
+        width: 25%;
+        height: 68px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: bisque;
+        background-image: url("logo.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        opacity: 0.98;
+
+        margin-left: 10px;
+      }
+      .menu-link {
+        width: 15%;
+        text-align: center;
+      }
+      .menu-link:hover {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .menu-link:active {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .carousel-body {
+        background-image: linear-gradient(
+          rgb(192, 209, 240),
+          rgb(255, 255, 255)
+        );
+        height: 80vh;
+      }
+
+      .cards {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .cards > div {
+        margin: 20px;
+        height: 350px;
+        border: none;
+        text-align: center;
+      }
+      .cards img {
+        height: 220px;
+      }
+      .cards img:hover {
+        width: 310px;
+        box-shadow: 7px 7px 10px 10px rgb(207, 204, 204);
+      }
+      footer {
+        background-image: linear-gradient(
+            rgb(255, 255, 255),
+          rgb(192, 209, 240)
+          
+        );
+        height: 300px;
+        display: flex;
+      }
+      footer > div {
+        width: 33%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .welcome-note {
+        width: 80%;
+        margin-top: 20px;
+        border-right: 1px solid black;
+      }
+      .address{
+        width: 80%;
+        border-right: 1px solid black;
+      }
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="container-fluid">
+    <header>
+      <div class="logo"></div>
+      <div class="menu-link">Home</div>
+      <div class="menu-link">About Us</div>
+      <div class="menu-link">Our Businesses</div>
+      <div class="menu-link">Media</div>
+      <div class="menu-link">Contact</div>
+    </header>
+    <div class="carousel-body">
+      <!-- <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="50">
+            <img src="./carousal1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./carousal1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./carousal2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./carousal3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <div class="cards container-fluid">
+      <div class="card" style="width: 25%">
+        <img src="./pmc.jpg" class="card-img-top" alt="pmc" />
+        <div class="card-body">
+          <h5>project</h5>
+          <p class="card-text">1body here</p>
+        </div>
+      </div>
+      <div class="card" style="width: 25%">
+        <img src="./amc.jpg" class="card-img-top" alt="amc" />
+        <div class="card-body">
+          <h5>project</h5>
+          <p class="card-text">2body here</p>
+        </div>
+      </div>
+      <div class="card" style="width: 25%">
+        <img src="./civil construction.jpg" class="card-img-top" alt="civil" />
+        <div class="card-body">
+          <h5>project</h5>
+          <p class="card-text">3body here</p>
+        </div>
+      </div>
+      <div class="card" style="width: 25%">
+        <img src="./electrical.jpg" class="card-img-top" alt="electrical" />
+        <div class="card-body">
+          <h5>project</h5>
+          <p class="card-text">4body here</p>
+        </div>
+      </div>
+      <div class="card" style="width: 25%">
+        <img src="./mep.jpg" class="card-img-top" alt="mep" />
+        <div class="card-body">
+          <h5>project</h5>
+          <p class="card-text">5body here</p>
+        </div>
+      </div>
+      <div class="card" style="width: 25%">
+        <img src="./pipeline.jpg" class="card-img-top" alt="pipeline" />
+        <div class="card-body">
+          <h5>project</h5>
+          <p class="card-text">6body here</p>
+        </div>
+      </div>
+      <div class="card" style="width: 25%">
+        <img src="./road works.jpg" class="card-img-top" alt="roadworks" />
+        <div class="card-body">
+          <h5>project</h5>
+          <p class="card-text">7body here</p>
+        </div>
+      </div>
+      <div class="card" style="width: 25%">
+        <img
+          src="./structural steel.jpg"
+          class="card-img-top"
+          alt="structural"
+        />
+        <div class="card-body">
+          <h5>project</h5>
+          <p class="card-text">8body here</p>
+        </div>
+      </div>
+      <div class="card" style="width: 25%">
+        <img src="./solar.jpg" class="card-img-top" alt="solar" />
+        <div class="card-body">
+          <h5>project</h5>
+          <p class="card-text">9body here</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <h5>Welcome to NamInfratech</h5>
+        <p class="welcome-note">
+          The company has been incorporated with the main objects of carrying on
+          the business of PMC and construction of
+          Civil/Mechanical/Electrical/Water Supply /MEP / HVAC / AMC projects on
+          turnkey basis and EPC .
+        </p>
+      </div>
+      <div ><h5>Contact</h5>
+        <div class="address">
+            <p>
+          <h6>Naminfratech Engineering& Project consultancy</h6> </p>
+          <div >18, Sarovaram Hsg colony Thottada,<br/> Kannur, Kerala, India 670141</p></div>
+        </div> </div>
+      <div>map</div>
+    </footer>
+
+    <script>
+      src =
+        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js";
+      integrity =
+        "sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N";
+      crossorigin = "anonymous";
+    </script>
+  </body>
+</html>
